@@ -1,0 +1,97 @@
+<div class="container">
+    <p *ngIf="isValidFormSubmitted" [ngClass]="'Sucess'">
+        Form Submitted successfully
+    </p>
+    <div class="upperForm" width='120%'>
+        <h3>Registration Form</h3>
+    </div>
+    <br>
+    <div class="row">
+        <form #myForm="ngForm" (submit)="OnFormSubmit(myForm)" novalidate>
+        <table cellspan='0'>
+            <thead>
+                <tr><td>Application Name</td>
+                    <td>{{appName}}</td>
+                </tr>
+                <tr><td>Application GRN</td>
+                    <td>{{GRName}}</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr><td class="TDFormHead">Informatica Registory Type</td>
+                    <td class="TDFormBody"><input type="radio" value="PCRS" name="registory" [ngModel]="product.registory" (change)="formChange(myForm)">Power central Registory
+                        <input type="radio" value="MRS" name="registory" [ngModel]="product.registory" (change)="formChange(myForm)">Model Registory</td>
+                </tr>
+                
+                <tr><td class="TDFormHead">Desired Region for Developement</td>
+                    <td class="TDFormBody"><select formControlName="desiredRegion">
+                        <option *ngFor="let dsRegion of desiredRegionList">{{dsRegion}}</option>
+                    </select>
+                    </td>
+                </tr>
+                
+                <tr><td class="TDFormHead">Region of majority of Developer</td>
+                    <td class="TDFormBody"><select formControlName="developerRegion">
+                        <option *ngFor="let dvRegion of developerRegionList">{{dvRegion}}</option>
+                    </select>
+                    </td>
+                </tr>
+                
+                <tr><td class="TDFormHead">Connect to salesForce .com web service</td>
+                    <td class="TDFormBody"><input type="checkbox" name="salesForceData">
+                </tr>
+                
+                <tr><td class="TDFormHead">Require versioning in dev repository</td>
+                    <td class="TDFormBody"><input type="checkbox" name="devRepository">
+                </tr>
+
+                <tr><td class="TDFormHead">Service class</td>
+                    <td class="TDFormBody"><select formControlName="serviceClass">
+                        <option *ngFor="let service of serviceList">{{service}}</option>
+                    </select>
+                    </td>
+                </tr>
+                
+                <tr><td class="TDFormHead">Prefer a specific repository service?</td>
+                    <td class="TDFormBody"><input type="checkbox"[(ngModel)]="specificRepository" name="specificRepository">
+                </tr>
+
+                <tr *ngIf="specificRepository">
+                    <td class="TDFormHead">Preffered Repository Service Name</td>
+                    <td class="TDFormBody"><select formControlName="repositoryServiceName">
+                        <option *ngFor="let pRepository of repositoryList">{{pRepository}}</option>
+                    </select>
+                    </td>
+                </tr>
+
+                <tr *ngIf="specificRepository">
+                    <td class="TDFormHead">Reason for Repository</td>
+                    <td class="TDFormBody"><textarea></textarea></td> <!--How to pass value-->
+                </tr>
+
+                
+                <tr><td class="TDFormHead">Create Shared Folder</td>
+                    <td class="TDFormBody"><input type="checkbox" checked name="shared" [(ngModel)]="product.sharedF">
+                </tr>
+                
+                <tr><td class="TDFormHead">Connection Types</td>
+                    <td class="TDFormBody"><select multiple >
+                        <option *ngFor="let connection of connectionList">{{connection}}</option>
+                    </select>
+                </tr>
+
+
+                <tr><td class="TDFormHead">Description</td>
+                    <td class="TDFormBody">{{Description}}</td>
+                </tr>
+                
+                <tr><td class="TDFormHead">Comment</td>
+                    <td class="TDFormBody">{{Comment}}</td> <!-- this is test-area-->
+                </tr>
+                
+            </tbody>
+
+        </table>
+    </form>
+    </div>
+</div>
