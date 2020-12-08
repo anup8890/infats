@@ -118,8 +118,8 @@ export class ProductRegistrationComponent{
     frequencyList: any=['Every 20 Mins','Every 40 Mins','Hourly','Daily'];
     specificRepository: boolean=true;
     registory: string[]=['Power Central Registory','Model Registory']
+    appName='Test1';
     GRName="GRN";
-    appName="Test1";
     Description="";
     Comment="OK";
 }
