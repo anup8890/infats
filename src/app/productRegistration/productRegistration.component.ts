@@ -119,6 +119,7 @@ export class ProductRegistrationComponent{
     specificRepository: boolean=true;
     registory: string[]=['Power Central Registory','Model Registory']
     GRName="GRN";
+    appName="Test1";
     Description="";
     Comment="OK";
 }
