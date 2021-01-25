@@ -9,7 +9,7 @@ import { ProductRegistrationComponent } from 'src/app/productRegistration/produc
 import { PageNotFoundComponent } from 'src/app/page-not-found/page-not-found.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { CommonService } from './_service/common.service';
+import { SoapService } from './_service/soap.service';
 import { ProductService } from './_service/product.service';
 
 @NgModule({
@@ -24,12 +24,7 @@ import { ProductService } from './_service/product.service';
     AppRoutingModule,
     FormsModule,
     ReactiveFormsModule,
-    RouterModule.forRoot([
-      {path: 'productRegistration', component:ProductRegistrationComponent},
-      {path: 'product-sucess', component:ProductSucessComponent},
-      {path: '', redirectTo: '/productRegistration', pathMatch: 'full'},
-      {path: '**', component:PageNotFoundComponent}
-    ]),
+    AppRoutingModule,
     BrowserAnimationsModule,
   ],
   providers: [CommonService,ProductService],
