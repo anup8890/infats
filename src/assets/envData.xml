@@ -1,0 +1,19 @@
+<soap:Envelopexmlns:soap="">
+<soap:Body>
+<ListInfaAppInfoResponsexmlns="">
+<message>application querry returns no record</message>
+<application>
+<infaAppNamexmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<infaAppGroupNamexmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<appDescxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<appEonxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<infaAppAdminxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<approvedByxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<appRegIdxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<biAppId>6250</biAppId>
+<status>NONEXISTENT</status>
+</application>
+<status>SUCESS</status>
+</ListInfaAppInfoResponse>
+</soap:Body>
+</soap:Envelope>

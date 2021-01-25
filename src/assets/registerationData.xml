@@ -1,0 +1,95 @@
+<soap:Envelopexmlns:soap="">
+<soap:Body>
+<ListInfaAppInfoResponsexmlns="">
+<message>application querry returns no record</message>
+<application>
+<infaAppNamexmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<infaAppGroupNamexmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<appDescxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<appEonxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<infaAppAdminxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<approvedByxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<appRegIdxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<name>MRS_VIT_BDM</name>
+<domain>Domain_VIT_BDM</domain>
+<isShared>true</isShared>
+<isVersioning>false</isVersioning>
+<repoType>MRS</repoType>
+<status>INACTIVE</status>  
+</application>      
+<appRegIdxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<name>MRS_VIT_BDM2</name>
+<domain>Domain_VIT_BDM2</domain>
+<isShared>true</isShared>
+<isVersioning>false</isVersioning>
+<repoType>MRS</repoType>
+<status>ACTIVE</status>  
+</application>      
+<appRegIdxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">        
+<name>RS_VIT_ENGDM10</name>
+<domain>Domain_VIT_ENGDM10</domain>
+<isShared>true</isShared>
+<isVersioning>false</isVersioning>
+<repoType>PCRS</repoType>
+<status>ACTIVE</status>  
+</application>      
+<appRegIdxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">       
+<name>MRS_VIT_BDM</name>
+<domain>Domain_VIT_BDM</domain>
+<isShared>true</isShared>
+<isVersioning>false</isVersioning>
+<repoType>MRS</repoType>
+<status>INACTIVE</status>  
+</application>      
+<appRegIdxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+<name>MRS_VIT_BDM2</name>
+<domain>Domain_VIT_BDM2</domain>
+<isShared>true</isShared>
+<isVersioning>false</isVersioning>
+<repoType>MRS</repoType>
+<status>ACTIVE</status>  
+</application>      
+<appRegIdxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">         
+  <name>MRS_VIT_BOM2</name>
+  <domain>Domain_VIT_BOM2</domain>
+  <isShared>true</isShared>
+  <isVersioning>false</isVersioning>
+  <repoType>MRS</repoType>
+  <status>ACTIVE</status>  
+</application>      
+<appRegIdxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+  <name>RS_VIT_ENGDM10_A</name>
+  <domain>Domain_VIT_ENGDM10_A</domain>
+  <isShared>true</isShared>
+  <isVersioning>false</isVersioning>
+  <repoType>PCRS</repoType>
+  <status>ACTIVE</status>  
+</application>      
+<appRegIdxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+  <name>RS_VIT_ENGDM10_B</name>
+  <domain>Domain_VIT_ENGDM10_B</domain>
+  <isShared>true</isShared>
+  <isVersioning>false</isVersioning>
+  <repoType>PCRS</repoType>
+  <status>ACTIVE</status>  
+</application>      
+<appRegIdxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+  <name>RS_VIT_ENGDM10_B</name>
+  <domain>Domain_VIT_ENGDM10_B</domain>
+  <isShared>true</isShared>
+  <isVersioning>false</isVersioning>
+  <repoType>PCRS</repoType>
+  <status>ACTIVE</status>  
+</application>      
+<appRegIdxmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"xsi:nil="true">
+  <name>RS_VIT_ENGDM1_A</name>
+  <domain>Domain_VIT_ENGDM1_A</domain>
+  <isShared>true</isShared>
+  <isVersioning>false</isVersioning>
+  <repoType>PCRS</repoType>
+  <status>INACTIVE</status>  
+</application>
+<status>SUCESS</status>
+</ListInfaAppInfoResponse>
+</soap:Body>
+</soap:Envelope>
