@@ -13,5 +13,7 @@
 <biAppId>6250</biAppId>
 <status>NONEXISTENT</status>
 </application>
+<status>Sucess</status>
+</ListInfaAppInfoResponse? 
 </soap:Body>
 </soap:Envelope>
