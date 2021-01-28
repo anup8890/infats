@@ -14,6 +14,6 @@
 <status>NONEXISTENT</status>
 </application>
 <status>Sucess</status>
-</ListInfaAppInfoResponse? 
+</ListInfaAppInfoResponse> 
 </soap:Body>
 </soap:Envelope>
