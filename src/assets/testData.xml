@@ -1,15 +1,15 @@
-<soap:Envelopexmlns:soap="">
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/enevelope">
 <soap:Body>
-<ListInfaAppInfoResponsexmlns="">
+<ListInfaAppInfoResponse xmlns="http://bi/infa_workbench_server/generated">
 <message>application querry returns no record</message>
 <application>
-<infaAppNamexmlns:xsi=""xsi:nil="true">
-<infaAppGroupNamexmlns:xsi=""xsi:nil="true">
-<appDescxmlns:xsi=""xsi:nil="true">
-<appEonxmlns:xsi=""xsi:nil="true">
-<infaAppAdminxmlns:xsi=""xsi:nil="true">
-<approvedByxmlns:xsi=""xsi:nil="true">
-<appRegIdxmlns:xsi=""xsi:nil="true">
+<infaAppName xmlns:xsi="http://www.w3org/2001/XMLSchema-instance" xsi:nil="true"></infaAppName>
+<infaAppGroupName xmlns:xsi="http://www.w3org/2001/XMLSchema-instance" xsi:nil="true"></infaAppGroupName>
+<appDesc xmlns:xsi="http://www.w3org/2001/XMLSchema-instance" xsi:nil="true"></appDesc>
+<appEon xmlns:xsi="http://www.w3org/2001/XMLSchema-instance" xsi:nil="true"></appEon>
+<infaAppAdmin xmlns:xsi="http://www.w3org/2001/XMLSchema-instance" xsi:nil="true"></infaAppAdmin>
+<approvedBy xmlns:xsi="http://www.w3org/2001/XMLSchema-instance" xsi:nil="true"></approvedBy>
+<appRegId xmlns:xsi="http://www.w3org/2001/XMLSchema-instance" xsi:nil="true"></appRegId>
 <biAppId>6250</biAppId>
 <status>NONEXISTENT</status>
 </application>
